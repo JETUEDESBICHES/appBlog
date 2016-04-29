@@ -26,8 +26,6 @@
 						<option {{is_null($post->category_id)? 'selected' : ''}} value="0">Non catégorisé</option>
 					</select>
 				</div>
-				
-				<p><label for="status">Publier l'article:</label><input {{$post->status==''? 'checked' : ''}} id="status" type="checkbox" name="status" value=""></p>
 
 	<div class="form-group">
 		@if(!is_null($post->picture))
