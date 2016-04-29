@@ -76,7 +76,9 @@
 
 @section('sidebar')
     <h3>Sponsor</h3>
-    <img style="width: 30%" src="http://www.cognix-systems.com/scripts/files/56659c8a295a92.74808223/05007000-photo-logo-php-elephpant.jpg">
-
+    <ul>
+   <li><img style="width: 30%" src="http://www.cognix-systems.com/scripts/files/56659c8a295a92.74808223/05007000-photo-logo-php-elephpant.jpg"></li>
+      <li>  <img style="width: 30%" src="http://echangedesavoirs.communityforge.net/sites/echangedesavoirs.communityforge.net/files/laravel_0.png"></li>
+    </ul>
 
 @stop
